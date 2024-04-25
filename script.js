@@ -6,7 +6,7 @@ function add(param1,param2) {
     return param1 + param2;
 }
 
-console.log(sum(1,2))
+console.log(add(1,2))
 
 function sumOfAllParam(...param1){       // using Rest Operators and forEach()
     let total=0;
@@ -16,4 +16,4 @@ function sumOfAllParam(...param1){       // using Rest Operators and forEach()
     return total;
 }
 
-console.log(sumOfAll(1,2,3,4,5,6,7,8,9,10));
+console.log(sumOfAllParam(1,2,3,4,5,6,7,8,9,10));
