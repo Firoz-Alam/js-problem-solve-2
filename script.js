@@ -2,13 +2,13 @@
 // Write a function that returns the sum of all numbers regardless of # of params.
 
 
-function sum(param1,param2) {
+function add(param1,param2) {
     return param1 + param2;
 }
 
 console.log(sum(1,2))
 
-function sumOfAll(...param1){       // using Rest Operators and forEach()
+function sumOfAllParam(...param1){       // using Rest Operators and forEach()
     let total=0;
     param1.forEach(perElement => {
         total += perElement;
